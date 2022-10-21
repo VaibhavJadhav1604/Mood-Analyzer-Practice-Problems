@@ -15,6 +15,7 @@ namespace REFACTOR1
         }
         public string analysemood()
         {
+            //if msg passed in constructor contains given value
             if (this.msg.Contains("SAD"))
             {
                 return "SAD";
