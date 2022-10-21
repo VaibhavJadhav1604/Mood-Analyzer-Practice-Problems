@@ -6,6 +6,7 @@ namespace MAPP1
     {
         public string analysemood(string msg)
         {
+            //checking if msg passed contains given value or not
             if (msg.Contains("SAD"))
             {
                 return "SAD";
