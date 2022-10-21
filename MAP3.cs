@@ -4,6 +4,7 @@ namespace MAPP3
 {
     public class MoodAnalysisException : Exception
     {   
+        //to differentiate Mood Analysis Error
         public enum ExceptionType
         {
             Null,Empty
@@ -11,6 +12,7 @@ namespace MAPP3
 
         public readonly ExceptionType type; 
         
+        //creating Custom Exception
         public MoodAnalysisException(ExceptionType type,string msg)
         : base(msg)
         {
