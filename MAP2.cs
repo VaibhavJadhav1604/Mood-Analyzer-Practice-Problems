@@ -6,8 +6,10 @@ namespace MAPP2
     {
         public string analysemood(string msg)
         {
+            //exception handled using try catch
             try
             {
+                //checking if msg passed contains given value
                 if (msg.Contains("SAD"))
                 {
                     return "SAD";
